@@ -45,14 +45,14 @@ View sales data trends over time.
 Create a dashboard to monitor customer interactions or revenue growth.
 
 ## File Structure
-  .
-├── docker-compose.yml        # Docker Compose file that defines the services and network.
-├── Dockerfile                # Dockerfile to build the Metabase container.
-├── LICENSE                   # License for the project.
-├── README.md                 # This file.
-└── .github/
-    └── workflows/
-        └── docker-build.yml  # GitHub Actions workflow for CI/CD
+ .
+ ├── docker-compose.yml        # Docker Compose file that defines the services and network.
+ ├── Dockerfile                # Dockerfile to build the Metabase container.
+ ├── LICENSE                   # License for the project.
+ ├── README.md                 # This file.
+ └── .github/
+     └── workflows/
+         └── docker-build.yml  # GitHub Actions workflow for CI/CD
 
 
 ## License and Compliance
