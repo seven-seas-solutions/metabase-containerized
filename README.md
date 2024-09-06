@@ -44,8 +44,8 @@ After setup, you can connect Metabase to your existing PostgreSQL database or ot
 View sales data trends over time.
 Create a dashboard to monitor customer interactions or revenue growth.
 
-## File Structure
-
+##   File Structure
+```bash
 .
 ├── docker-compose.yml        # Docker Compose file that defines the services and network.
 ├── Dockerfile                # Dockerfile to build the Metabase container.
