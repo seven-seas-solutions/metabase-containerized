@@ -27,17 +27,16 @@ This project demonstrates how to containerize Metabase with PostgreSQL using Doc
    git clone https://github.com/seven-seas-solutions/metabase-containerized.git
    cd metabase-containerized
 
-Run Docker Compose:
+2. Run Docker Compose:
+   ```bash
+   docker-compose up -d
 
-```bash
-docker-compose up -d
 
-## Access Metabase: Once the containers are up and running, access Metabase through your browser at:
+3. Access Metabase: Once the containers are up and running, access Metabase through your browser at:
+   ```bash
+   http://localhost:3000
 
-```bash
-http://localhost:3000
-
-Initial Setup: Follow the setup wizard in Metabase to configure your initial admin account and connect to the PostgreSQL database.
+4. Initial Setup: Follow the setup wizard in Metabase to configure your initial admin account and connect to the PostgreSQL     database.
 
 ## Example Usage
 After setup, you can connect Metabase to your existing PostgreSQL database or other supported data sources to visualize insights and create reports. For example:
@@ -46,16 +45,14 @@ View sales data trends over time.
 Create a dashboard to monitor customer interactions or revenue growth.
 
 ## File Structure
-
-```bash
-.
-├── docker-compose.yml        # Docker Compose file that defines the services and network.
-├── Dockerfile                # Dockerfile to build the Metabase container.
-├── LICENSE                   # License for the project.
-├── README.md                 # This file.
-└── .github/
-    └── workflows/
-        └── docker-build.yml  # GitHub Actions workflow for CI/CD
+   .
+   ├── docker-compose.yml        # Docker Compose file that defines the services and network.
+   ├── Dockerfile                # Dockerfile to build the Metabase container.
+   ├── LICENSE                   # License for the project.
+   ├── README.md                 # This file.
+   └── .github/
+       └── workflows/
+           └── docker-build.yml  # GitHub Actions workflow for CI/CD
 
 
 ## License and Compliance
