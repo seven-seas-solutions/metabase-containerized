@@ -38,13 +38,13 @@ This project demonstrates how to containerize Metabase with PostgreSQL using Doc
 
 4. Initial Setup: Follow the setup wizard in Metabase to configure your initial admin account and connect to the PostgreSQL     database.
 
-## Example Usage
+### Example Usage
 After setup, you can connect Metabase to your existing PostgreSQL database or other supported data sources to visualize insights and create reports. For example:
 
 View sales data trends over time.
 Create a dashboard to monitor customer interactions or revenue growth.
 
-##   File Structure
+###   File Structure
    ```bash
    .
    ├── docker-compose.yml        # Docker Compose file that defines the services and network.
@@ -56,7 +56,7 @@ Create a dashboard to monitor customer interactions or revenue growth.
            └── docker-build.yml  # GitHub Actions workflow for CI/CD
 
 
-## License and Compliance
+### License and Compliance
 
 This project contains or makes use of the following third-party software, each of which has its own licensing requirements:
 
