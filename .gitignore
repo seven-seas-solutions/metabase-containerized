@@ -1,0 +1,6 @@
+# Ignore Docker-related files
+postgres-data/
+metabase-data/
+
+# Ignore IDE-related files (e.g., VS Code)
+.vscode/
