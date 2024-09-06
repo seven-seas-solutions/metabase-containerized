@@ -32,19 +32,20 @@ Run Docker Compose:
 ```bash
 docker-compose up -d
 
-##Access Metabase: Once the containers are up and running, access Metabase through your browser at:
+## Access Metabase: Once the containers are up and running, access Metabase through your browser at:
 
 ```bash
 http://localhost:3000
+
 Initial Setup: Follow the setup wizard in Metabase to configure your initial admin account and connect to the PostgreSQL database.
 
-##Example Usage
+## Example Usage
 After setup, you can connect Metabase to your existing PostgreSQL database or other supported data sources to visualize insights and create reports. For example:
 
 View sales data trends over time.
 Create a dashboard to monitor customer interactions or revenue growth.
 
-##File Structure
+## File Structure
 
 ```bash
 .
@@ -56,10 +57,15 @@ Create a dashboard to monitor customer interactions or revenue growth.
     └── workflows/
         └── docker-build.yml  # GitHub Actions workflow for CI/CD
 
-##License and Compliance
+
+## License and Compliance
+
 This project contains or makes use of the following third-party software, each of which has its own licensing requirements:
 
-##Metabase: Licensed under the AGPLv3 License.
+Metabase: Licensed under the AGPLv3 License.
+
 PostgreSQL: Licensed under the PostgreSQL License.
+
 Docker: Licensed under the Apache License 2.0.
+
 This Project's Code: Licensed under the MIT License. For more details, see the LICENSE file in this repository.
