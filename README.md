@@ -18,5 +18,5 @@ This project demonstrates how to set up and containerize Metabase with PostgreSQ
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/seven-seas-solutions/metabase-containerized.git
    cd metabase-containerized
