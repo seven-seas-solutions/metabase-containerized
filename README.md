@@ -26,3 +26,39 @@ This project demonstrates how to containerize Metabase with PostgreSQL using Doc
    ```bash
    git clone https://github.com/seven-seas-solutions/metabase-containerized.git
    cd metabase-containerized
+
+Run Docker Compose:
+
+bash
+Copy code
+docker-compose up -d
+Access Metabase: Once the containers are up and running, access Metabase through your browser at:
+
+bash
+Copy code
+http://localhost:3000
+Initial Setup: Follow the setup wizard in Metabase to configure your initial admin account and connect to the PostgreSQL database.
+
+Example Usage
+After setup, you can connect Metabase to your existing PostgreSQL database or other supported data sources to visualize insights and create reports. For example:
+
+View sales data trends over time.
+Create a dashboard to monitor customer interactions or revenue growth.
+File Structure
+bash
+Copy code
+.
+├── docker-compose.yml        # Docker Compose file that defines the services and network.
+├── Dockerfile                # Dockerfile to build the Metabase container.
+├── LICENSE                   # License for the project.
+├── README.md                 # This file.
+└── .github/
+    └── workflows/
+        └── docker-build.yml  # GitHub Actions workflow for CI/CD
+License and Compliance
+This project contains or makes use of the following third-party software, each of which has its own licensing requirements:
+
+Metabase: Licensed under the AGPLv3 License.
+PostgreSQL: Licensed under the PostgreSQL License.
+Docker: Licensed under the Apache License 2.0.
+This Project's Code: Licensed under the MIT License. For more details, see the LICENSE file in this repository.
