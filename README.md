@@ -67,3 +67,7 @@ This project contains or makes use of the following third-party software, each o
 - Docker: Licensed under the Apache License 2.0.
 
 This Project's Code: Licensed under the MIT License. For more details, see the LICENSE file in this repository.
+
+### Additional Resources
+
+For more information on how to use Metabase, visit the official Metabase YouTube channel: https://www.youtube.com/@metabasedata/videos
