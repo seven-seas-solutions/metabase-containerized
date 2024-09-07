@@ -60,10 +60,10 @@ Create a dashboard to monitor customer interactions or revenue growth.
 
 This project contains or makes use of the following third-party software, each of which has its own licensing requirements:
 
-Metabase: Licensed under the AGPLv3 License.
+- Metabase: Licensed under the AGPLv3 License.
 
-PostgreSQL: Licensed under the PostgreSQL License.
+- PostgreSQL: Licensed under the PostgreSQL License.
 
-Docker: Licensed under the Apache License 2.0.
+- Docker: Licensed under the Apache License 2.0.
 
 This Project's Code: Licensed under the MIT License. For more details, see the LICENSE file in this repository.
